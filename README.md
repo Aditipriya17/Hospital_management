@@ -1,4 +1,4 @@
-
+<!--
 **Hospital Management System**
 
 **Description:** This document provides an overview of the Hospital Management System, its features, and usage.
@@ -42,4 +42,40 @@ Implemented the functionality to allow users to schedule medical appointments on
 
 
 This feature enhances the usability and functionality of the Hospital Management System, providing a comprehensive solution for managing patient appointments and medical records.
+-->
+# Hospital Management System
+**Overview**
+This repository contains the code for a comprehensive Hospital Management System (HMS) designed to streamline patient management and enhance operational efficiency within medical institutions.
 
+## Key Features
+- **Patient Registration and Login:** Securely register new patients and provide login functionality using session management for enhanced security.
+
+- **Appointment Scheduling:** Enable patients to schedule medical appointments online, with email notifications for appointment reminders.
+
+- **Medical Records Management:** Securely store and manage patient medical records, accessible only to authorized personnel.
+
+- **Responsive Design:** Utilize HTML, CSS, and Bootstrap to ensure a responsive and user-friendly interface across various devices.
+
+- **Microservices Architecture:** Implement a scalable and maintainable system architecture using Java with J2EE microservices, including service discovery (Eureka) and API Gateway (Zuul).
+
+- **Database Integration:** Integrate MySQL for efficient storage and retrieval of patient and appointment data using JDBC.
+
+## Architecture
+- **Frontend:** JavaScript, HTML, CSS, Bootstrap
+- **Backend:** Java with J2EE
+- **Database:** MySQL
+- **Microservices:** Eureka (Service Discovery), Zuul (API Gateway)
+### Additional Information
+- **Stability:** Currently in Beta phase, undergoing continuous improvement and testing.
+- **Platforms:** Supported on Windows and macOS.
+- **Portability:** Highly portable across different environments.
+- **Category:** Web Application, Microservices Architecture
+## Commit Message
+```
+git commit -m 'feat(appointment): Added new appointment scheduling feature
+
+Implemented functionality for patients to schedule appointments online, enhancing system usability and patient convenience.'
+
+```
+> [!TIP]
+> This feature enhances the usability and functionality of the Hospital Management System, providing a comprehensive solution for managing patient appointments and medical records.
